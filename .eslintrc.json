@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": ["plugin:react/recommended", "plugin:prettier/recommended"],
+  "plugins": ["react-hooks"],
+  "rules": {
+    "react/prop-types": 0,
+    "prettier/prettier": ["error", {"endOfLine":"auto"}],
+    "react-hooks/rules-of-hooks": "error", // Проверяем правила хуков
+    "react-hooks/exhaustive-deps": "warn", // Проверяем зависимости эффекта
+    "no-unused-vars": ["warn"]
+  }
+}

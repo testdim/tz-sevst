@@ -1,0 +1,8 @@
+.App-header,
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw 4vw 0;
+}
