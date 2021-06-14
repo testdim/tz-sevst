@@ -4,5 +4,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2vw 4vw 0;
+  margin: 2vw 4vw;
+}
+.tableRow {
+  display: grid;
+  grid-template-columns: 0.3fr 0.8fr 0.8fr 0.8fr 0.9fr 2fr 0.6fr;
+}
+.tableHead {
+  border: 1px solid grey;
+}
+.controls {
+  padding: 2rem;
+}
+span {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
 }
